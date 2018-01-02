@@ -20,3 +20,13 @@ MACHINE ??= "raspberrypi3"
 ```
 
 Then, run `source poky-rocko/oe-init-build-env` and `bitbake core-image-weston`.
+
+### Creating Boot Image
+
+Creating weston image.
+
+```
+$ sudo dd if=./tmp/deploy/images/raspberrypi3/core-image-weston-raspberrypi3.rpi-sdimg of=/dev/sdX bs=4M
+```
+
+where `/dev/sdX` is mounted SD card device.
