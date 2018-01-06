@@ -30,3 +30,7 @@ $ sudo dd if=./tmp/deploy/images/raspberrypi3/core-image-weston-raspberrypi3.rpi
 ```
 
 where `/dev/sdX` is mounted SD card device.
+
+### LICENSE
+
+[MIT](LICENSE).
