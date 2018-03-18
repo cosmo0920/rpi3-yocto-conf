@@ -1,7 +1,7 @@
 Yocto settings for Raspberry Pi3
 ===
 
-This repository contains my yocto build settings for Raspberry Pi3 Model B on Yocto Rocko(2.4).
+This repository contains my yocto build settings for Raspberry Pi3 Model B armv7 build on Yocto Rocko(2.4).
 
 ### Prerequisites
 
