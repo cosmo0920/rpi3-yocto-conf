@@ -3,6 +3,8 @@ Yocto settings for Raspberry Pi3
 
 This repository contains my yocto build settings for Raspberry Pi3 Model B armv7 build on Yocto Rocko(2.4).
 
+For Yocto sumo(2.5) and aarch64 building configurations, please refer [yocto-sumo](https://github.com/cosmo0920/rpi3-yocto-conf/tree/yocto-sumo) branch.
+
 ### Prerequisites
 
 ```bash
