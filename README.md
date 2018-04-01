@@ -23,6 +23,8 @@ MACHINE ??= "raspberrypi3"
 
 Then, run `source poky-rocko/oe-init-build-env` and `bitbake core-image-weston`.
 
+If you want to build aarch64 on Raspberry Pi, please set MACHINE as `raspberrypi3-64`.
+
 ### Creating Boot Image
 
 Writing weston image into SD card.
