@@ -5,7 +5,7 @@ This repository contains my yocto build settings for Raspberry Pi3 Model B armv7
 
 For Yocto sumo(2.5) and aarch64 building configurations, please refer [yocto-sumo](https://github.com/cosmo0920/rpi3-yocto-conf/tree/yocto-sumo) branch.
 
-For Yocto rocko(2.4) and chromium-ozone wayland building configurations, please refer [rocko-chromium](https://github.com/cosmo0920/rpi3-yocto-conf/tree/rocko-chromium) branch.
+For Yocto rocko(2.4) and chromium-ozone-wayland building configurations, please refer [rocko-chromium](https://github.com/cosmo0920/rpi3-yocto-conf/tree/rocko-chromium) branch.
 
 
 ### Prerequisites
