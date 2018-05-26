@@ -7,7 +7,7 @@ For Yocto sumo(2.5) and aarch64 building configurations, please refer [yocto-sum
 
 For Yocto rocko(2.4) and chromium-ozone-wayland building configurations, please refer [rocko-chromium](https://github.com/cosmo0920/rpi3-yocto-conf/tree/rocko-chromium) branch.
 
-For building firefox, TBD.
+For building firefox, current branch.
 
 
 ### Prerequisites
@@ -16,6 +16,8 @@ For building firefox, TBD.
 $ git clone -b rocko git://git.yoctoproject.org/poky.git poky-rocko
 $ git clone -b rocko git://git.openembedded.org/meta-openembedded
 $ git clone -b rocko git://git.yoctoproject.org/meta-raspberrypi
+$ git clone -b firefox-60esr https://github.com/webdino/meta-browser.git
+$ git clone -b jethro-14.0.1_rust_1.24.1 https://github.com/webdino/meta-rust.git
 ```
 
 ### Instruction
