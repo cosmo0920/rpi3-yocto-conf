@@ -28,13 +28,13 @@ Specify MACHINE as `raspberrypi3` in `conf/local.conf`.
 MACHINE ??= "raspberrypi3"
 ```
 
-Then, run `source poky-rocko/oe-init-build-env` and `bitbake core-image-weston`.
+Then, run `source {YOCTO_ROOT_DIR}/oe-init-build-env` and `bitbake core-image-weston`.
 
 If you want to build aarch64 on Raspberry Pi 3, please set MACHINE as `raspberrypi3-64`.
 
 ### Creating Boot Image
 
-Writing weston image into SD card.
+Writing weston image into SD card:
 
 ```
 $ sudo dd if=./tmp/deploy/images/raspberrypi3/core-image-weston-raspberrypi3.rpi-sdimg of=/dev/sdX bs=4M
