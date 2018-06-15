@@ -7,7 +7,7 @@ For Yocto sumo(2.5) and aarch64 building configurations, please refer [yocto-sum
 
 For Yocto rocko(2.4) and chromium-ozone-wayland building configurations, please refer [rocko-chromium](https://github.com/cosmo0920/rpi3-yocto-conf/tree/rocko-chromium) branch.
 
-For building Firefox 60ESR, current branch.
+For building Firefox 60ESR on Wyaland/Weston with layer acceleratation and WEBRTC, current branch.
 
 
 ### Prerequisites
