@@ -7,8 +7,7 @@ For Yocto sumo(2.5) and aarch64 building configurations, please refer [yocto-sum
 
 For Yocto rocko(2.4) and chromium-ozone-wayland building configurations, please refer [rocko-chromium](https://github.com/cosmo0920/rpi3-yocto-conf/tree/rocko-chromium) branch.
 
-For building Firefox 60ESR on Wyaland/Weston with layer acceleratation and WebRTC, current branch.
-
+For building Firefox 60ESR on Wyaland/Weston with layer acceleratation and WebRTC, use current branch.
 
 ### Prerequisites
 
@@ -30,7 +29,7 @@ MACHINE ??= "raspberrypi3"
 
 Then, run `source {YOCTO_ROOT_DIR}/oe-init-build-env` and `bitbake core-image-weston`.
 
-If you want to build aarch64 on Raspberry Pi 3, please set MACHINE as `raspberrypi3-64`.
+If you want to build aarch64 image for Raspberry Pi 3, please set MACHINE as `raspberrypi3-64`.
 
 ### Creating Boot Image
 
