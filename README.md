@@ -27,7 +27,7 @@ Specify MACHINE as `raspberrypi3` in `conf/local.conf`.
 MACHINE ??= "raspberrypi3"
 ```
 
-Then, run `source {YOCTO_ROOT_DIR}/oe-init-build-env` and `bitbake core-image-weston`.
+Then, run `source ${YOCTO_ROOT_DIR}/oe-init-build-env` and `bitbake core-image-weston`.
 
 If you want to build aarch64 image for Raspberry Pi 3, please set MACHINE as `raspberrypi3-64`.
 
