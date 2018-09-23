@@ -15,6 +15,8 @@ For building Firefox 60ESR on Wyaland/Weston with layer acceleratation and WebRT
 $ git clone -b rocko git://git.yoctoproject.org/poky.git poky-rocko
 $ git clone -b rocko git://git.openembedded.org/meta-openembedded
 $ git clone -b rocko git://git.yoctoproject.org/meta-raspberrypi
+$ git clone -b rocko https://github.com/meta-qt5/meta-qt5
+$ git clone -b rocko https://github.com/jumpnow/meta-rpi.git
 $ git clone -b firefox-60esr https://github.com/webdino/meta-browser.git
 $ git clone -b jethro-14.0.1_rust_1.24.1 https://github.com/webdino/meta-rust.git
 ```
