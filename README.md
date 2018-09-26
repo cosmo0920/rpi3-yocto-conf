@@ -11,8 +11,6 @@ For Yocto rocko(2.4) and meta-rpi configurations, please refer [rocko-meta-rpi](
 
 For building Firefox 60ESR series on Wyaland/Weston with layer acceleratation and WebRTC, use current branch.
 
-For building Firefox 60ESR on Wyaland/Weston with layer acceleratation and WebRTC, use current branch.
-
 ### Prerequisites
 
 ```bash
