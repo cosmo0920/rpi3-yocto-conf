@@ -9,7 +9,7 @@ For Yocto rocko(2.4) and chromium-ozone-wayland building configurations, please 
 
 For Yocto rocko(2.4) and meta-rpi configurations, please refer [rocko-meta-rpi](https://github.com/cosmo0920/rpi3-yocto-conf/tree/rocko-meta-rpi) branch.
 
-For Yocto rocko(2.4) and building Firefox 60ESR series on Wayland/Weston with layer acceleratation and WebRTC, use current branch.
+For Yocto rocko(2.4) and building Firefox 60ESR series on Wayland/Weston with layer acceleratation, WebRTC, and Quantum CSS (stylo), use current branch.
 
 ### Prerequisites
 
