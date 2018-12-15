@@ -18,7 +18,7 @@ $ git clone -b rocko git://git.yoctoproject.org/poky.git poky-rocko
 $ git clone -b rocko git://git.openembedded.org/meta-openembedded
 $ git clone -b rocko git://git.yoctoproject.org/meta-raspberrypi
 $ git clone -b firefox-60esr https://github.com/webdino/meta-browser.git
-$ git clone -b use-prebuilt-rust-std-for-cross-compile-with-dldir https://github.com/webdino/meta-rust.git
+$ git clone https://github.com/meta-rust/meta-rust.git
 ```
 
 ### Instruction
