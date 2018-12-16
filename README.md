@@ -17,7 +17,7 @@ For Yocto rocko(2.4) and building Firefox 60ESR series on Wayland/Weston with la
 $ git clone -b rocko git://git.yoctoproject.org/poky.git poky-rocko
 $ git clone -b rocko git://git.openembedded.org/meta-openembedded
 $ git clone -b rocko git://git.yoctoproject.org/meta-raspberrypi
-$ git clone -b firefox-60esr https://github.com/webdino/meta-browser.git
+$ git clone https://github.com/OSSystems/meta-browser.git
 $ git clone https://github.com/meta-rust/meta-rust.git
 ```
 
