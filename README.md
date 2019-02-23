@@ -12,7 +12,8 @@ For Yocto rocko(2.4) or above and building Firefox 60ESR series on Wayland/Westo
 ### Prerequisites
 
 ```bash
-$ git clone -b rocko git://git.yoctoproject.org/poky.git poky-rocko
+$ mkdir poky-rocko && cd $_
+$ git clone -b rocko git://git.yoctoproject.org/poky.git
 $ git clone -b rocko git://git.openembedded.org/meta-openembedded
 $ git clone -b rocko git://git.yoctoproject.org/meta-raspberrypi
 $ git clone https://github.com/OSSystems/meta-browser.git
