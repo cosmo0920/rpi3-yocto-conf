@@ -1,21 +1,17 @@
 Yocto settings for Raspberry Pi3
 ===
 
-This repository contains my yocto build settings for Raspberry Pi3 Model B armv7 build on Yocto Rocko(2.4) or above.
+This repository contains my yocto build settings for Raspberry Pi3 Model B armv7 build on Yocto thud(2.6) or above.
 
-For Yocto rocko(2.4) and chromium-ozone-wayland building configurations, please refer [rocko-chromium](https://github.com/cosmo0920/rpi3-yocto-conf/tree/rocko-chromium) branch.
-
-For Yocto rocko(2.4) and meta-rpi configurations, please refer [rocko-meta-rpi](https://github.com/cosmo0920/rpi3-yocto-conf/tree/rocko-meta-rpi) branch.
-
-For Yocto rocko(2.4) or above and building Firefox 60ESR series on Wayland/Weston with layer acceleratation, WebRTC, and Quantum CSS (stylo), use current branch.
+For Yocto thud(2.6) or above and building Firefox 60ESR series on Wayland/Weston with layer acceleratation, WebRTC, and Quantum CSS (stylo), use current branch.
 
 ### Prerequisites
 
 ```bash
-$ git clone -b rocko git://git.yoctoproject.org/poky.git poky-rocko
-$ cd poky-rocko
-$ git clone -b rocko git://git.openembedded.org/meta-openembedded
-$ git clone -b rocko git://git.yoctoproject.org/meta-raspberrypi
+$ mkdir poky-thud && cd $_
+$ git clone -b thud git://git.yoctoproject.org/poky.git
+$ git clone -b thud git://git.openembedded.org/meta-openembedded
+$ git clone -b thud git://git.yoctoproject.org/meta-raspberrypi
 $ git clone https://github.com/OSSystems/meta-browser.git
 $ git clone https://github.com/meta-rust/meta-rust.git
 ```
