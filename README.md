@@ -1,7 +1,7 @@
 Yocto settings for Raspberry Pi3
 ===
 
-This repository contains my yocto build settings for Raspberry Pi3 Model B armv7 build on Yocto thud(2.6) or above.
+This repository contains my yocto build settings for Raspberry Pi3 Model B armv7 hard float build on Yocto thud(2.6) or above.
 
 For Yocto thud(2.6) or above and building Firefox 60ESR series on Wayland/Weston with layer acceleratation (TODO?), WebRTC, and Quantum CSS (stylo), use current branch.
 
