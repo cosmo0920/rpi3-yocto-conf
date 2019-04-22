@@ -5,6 +5,8 @@ This repository contains my yocto build settings for Raspberry Pi3 Model B armv7
 
 For Yocto thud(2.6) or above and building Firefox 60ESR series on Wayland/Weston with layer acceleratation (TODO?), WebRTC, and Quantum CSS (stylo), use current branch.
 
+Firefox 68ESR is planned to support but not yet.
+
 ### Prerequisites
 
 ```bash
